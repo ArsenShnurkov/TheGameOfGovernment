@@ -1,0 +1,13 @@
+version: 1.0.{build}
+skip_tags: true
+configuration:
+- Debug
+- Release
+platform: Any CPU
+clone_depth: 1
+nuget:
+  account_feed: true
+build:
+  publish_nuget: true
+  verbosity: minimal
+  
